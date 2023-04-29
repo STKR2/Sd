@@ -1,6 +1,6 @@
 
 Tompriv
-/
+
 Tom
 Public
 Code
@@ -9,16 +9,14 @@ Pull requests
 Projects
 Security
 Insights
-BreadcrumbsTom/AnonX/plugins
-/menfcall.py
+Telugucoders/plugins /menfcall.py
 Latest commit
 Tompriv
 Tompriv
 2 weeks ago
 History
 36 lines (33 loc) · 1.56 KB
-BreadcrumbsTom/AnonX/plugins
-/menfcall.py
+Telugucoders/plugins /menfcall.py
 File metadata and controls
 
 Code
