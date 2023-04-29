@@ -1,28 +1,7 @@
 
-Tompriv
 
-Tom
-Public
-Code
-Issues
-Pull requests
-Projects
-Security
-Insights
-Telugucoders/plugins /menfcall.py
-Latest commit
-Tompriv
-Tompriv
-2 weeks ago
-History
-36 lines (33 loc) · 1.56 KB
-Telugucoders/plugins /menfcall.py
-File metadata and controls
 
-Code
 
-Blame
-async def strcall(client, message):
 from pyrogram import filters, Client
 from AnonX import app
 import asyncio
@@ -56,4 +35,4 @@ async def strcall(client, message):
         await message.reply(f"عمووووو الكول مش مفتوح اصلااا\n❌")
     except TelegramServerError:
         await message.reply(f"ارسل الامر تاني في مشكله في سيرفر التلجرام\n❌")
-        
+
