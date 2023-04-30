@@ -1,16 +1,13 @@
 
-
-
-
 from pyrogram import filters, Client
-from Telugucoders import app
+from AnonX import app
 import asyncio
 from pytgcalls import PyTgCalls, StreamType
 from pytgcalls.types.input_stream import AudioPiped, AudioVideoPiped
-from Telugucoders.core.call import Anon
-from Telugucoders.utils.database import *
+from AnonX.core.call import Anon
+from AnonX.utils.database import *
 from pytgcalls.exceptions import (NoActiveGroupCall,TelegramServerError)
-@app.on_message(filters.regex("الاتصال"))
+@app.on_message(filters.regex("الكول"))
 async def strcall(client, message):
     assistant = await group_assistant(Anon,message.chat.id)
     try:
@@ -35,6 +32,10 @@ async def strcall(client, message):
         await message.reply(f"عمووووو الكول مش مفتوح اصلااا\n❌")
     except TelegramServerError:
         await message.reply(f"ارسل الامر تاني في مشكله في سيرفر التلجرام\n❌")
+        
+
+
+
 
 
 
